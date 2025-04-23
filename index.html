@@ -24,103 +24,105 @@
 
         <!-- Playground Section -->
         <section id="play-ground" class="hidden">
-            <div class="flex flex-col justify-center items-center gap-[4.5rem] pt-[4.5rem]">
-                <!-- screen -->
-                <div
-                    class="w-[70rem] h-[26rem] border-[1.25rem] border-[rgba(1,3,19,0.80)] rounded-2xl bg-[rgba(255,255,255,0.70)] backdrop-blur-md">
-                    <div class="flex justify-center h-[45px]">
-                        <p
-                            class="px-8 pb-4 bg-[rgba(1,3,19,0.80)] rounded-b-xl text-white text-lg font-medium leading-[1.8rem] text-center">
-                            Don't watch keyboard while playing...</p>
+            <div class="flex justify-center items-center min-h-screen">
+                <div class="flex flex-col justify-center items-center gap-[4rem]">
+                    <!-- screen -->
+                    <div
+                        class="w-[64rem] h-[24rem] border-[1.25rem] border-[rgba(1,3,19,0.80)] rounded-2xl bg-[rgba(255,255,255,0.70)] backdrop-blur-md">
+                        <div class="flex justify-center h-[43px]">
+                            <p
+                                class="px-8 pb-4 bg-[rgba(1,3,19,0.80)] rounded-b-xl text-white text-lg font-medium leading-[1.8rem] text-center">
+                                Don't watch keyboard while playing...</p>
+                        </div>
+                        <div class="flex justify-center items-center h-[265px]">
+                            <p id="show-alpha"
+                                class="text-[#010313] text-9xl font-bold text-center uppercase">Y</p>
+                        </div>
+                        <div class="flex justify-end h-[36px]">
+                            <p
+                                class="pl-6 pr-4 pt-2 bg-[rgba(1,3,19,0.80)] rounded-tl-xl text-white text-sm font-normal text-center">
+                                Press 'ESC' to exit the game...</p>
+                        </div>
                     </div>
-                    <div class="flex justify-center items-center h-[295px]">
-                        <p id="show-alpha"
-                            class="text-[#010313] text-9xl font-bold text-center uppercase">Y</p>
+                    <!-- Keyboard Start -->
+                    <div>
+                        <div class="my-1 flex w-full justify-center gap-[0.85rem] mb-[0.85rem]">
+                            <kbd id="q"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">q</kbd>
+                            <kbd id="w"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">w</kbd>
+                            <kbd id="e"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">e</kbd>
+                            <kbd id="r"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">r</kbd>
+                            <kbd id="t"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">t</kbd>
+                            <kbd id="y"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">y</kbd>
+                            <kbd id="u"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">u</kbd>
+                            <kbd id="i"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">i</kbd>
+                            <kbd id="o"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">o</kbd>
+                            <kbd id="p"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">p</kbd>
+                        </div>
+                        <div class="my-1 flex w-full justify-center gap-[0.85rem] mb-[0.85rem]">
+                            <kbd id="a"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">a</kbd>
+                            <kbd id="s"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">s</kbd>
+                            <kbd id="d"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">d</kbd>
+                            <kbd id="f"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">f</kbd>
+                            <kbd id="g"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">g</kbd>
+                            <kbd id="h"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">h</kbd>
+                            <kbd id="j"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">j</kbd>
+                            <kbd id="k"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">k</kbd>
+                            <kbd id="l"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">l</kbd>
+                        </div>
+                        <div class="my-1 flex w-full justify-center gap-[0.85rem]">
+                            <kbd id="z"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">z</kbd>
+                            <kbd id="x"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">x</kbd>
+                            <kbd id="c"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">c</kbd>
+                            <kbd id="v"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">v</kbd>
+                            <kbd id="b"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">b</kbd>
+                            <kbd id="n"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">n</kbd>
+                            <kbd id="m"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">m</kbd>
+                            <kbd id="/"
+                                class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">/</kbd>
+                        </div>
                     </div>
-                    <div class="flex justify-end h-[36px]">
-                        <p
-                            class="pl-6 pr-4 pt-2 bg-[rgba(1,3,19,0.80)] rounded-tl-xl text-white text-sm font-normal text-center">
-                            Press 'ESC' to exit the game...</p>
+                    <!-- keyboard End -->
+                    <!-- Life/Score Bar -->
+                    <div class="flex justify-between w-[64rem]">
+                        <button
+                            class="btn py-6 px-[2.2rem] bg-[#894189] text-white border-none rounded-full text-[1.25rem] font-medium leading-[1.8rem]">
+                            Life
+                            <img src="images/life.png" alt="">
+                            <span id="current-life">1</span>
+                        </button>
+                        <button
+                            class="btn py-6 px-[2.2rem] bg-[#360490] text-white border-none rounded-full text-[1.25rem] font-medium leading-[1.8rem]">
+                            Score
+                            <img src="images/score.png" alt="">
+                            <span id="current-score">1</span>
+                        </button>
                     </div>
-                </div>
-                <!-- Keyboard Start -->
-                <div>
-                    <div class="my-1 flex w-full justify-center gap-[0.85rem] mb-[0.85rem]">
-                        <kbd id="q"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">q</kbd>
-                        <kbd id="w"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">w</kbd>
-                        <kbd id="e"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">e</kbd>
-                        <kbd id="r"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">r</kbd>
-                        <kbd id="t"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">t</kbd>
-                        <kbd id="y"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">y</kbd>
-                        <kbd id="u"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">u</kbd>
-                        <kbd id="i"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">i</kbd>
-                        <kbd id="o"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">o</kbd>
-                        <kbd id="p"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">p</kbd>
-                    </div>
-                    <div class="my-1 flex w-full justify-center gap-[0.85rem] mb-[0.85rem]">
-                        <kbd id="a"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">a</kbd>
-                        <kbd id="s"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">s</kbd>
-                        <kbd id="d"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">d</kbd>
-                        <kbd id="f"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">f</kbd>
-                        <kbd id="g"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">g</kbd>
-                        <kbd id="h"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">h</kbd>
-                        <kbd id="j"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">j</kbd>
-                        <kbd id="k"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">k</kbd>
-                        <kbd id="l"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">l</kbd>
-                    </div>
-                    <div class="my-1 flex w-full justify-center gap-[0.85rem]">
-                        <kbd id="z"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">z</kbd>
-                        <kbd id="x"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">x</kbd>
-                        <kbd id="c"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">c</kbd>
-                        <kbd id="v"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">v</kbd>
-                        <kbd id="b"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">b</kbd>
-                        <kbd id="n"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">n</kbd>
-                        <kbd id="m"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">m</kbd>
-                        <kbd id="/"
-                            class="kbd font-poppins text-[1.30rem] font-medium leading-[1.8rem] text-[#010313] w-[3.47744rem] h-[3.26013rem] rounded-[0.652rem] bg-white drop-shadow-lg">/</kbd>
-                    </div>
-                </div>
-                <!-- keyboard End -->
-                <!-- Life/Score Bar -->
-                <div class="flex justify-between w-[70rem]">
-                    <button
-                        class="btn py-6 px-[2.2rem] bg-[#894189] text-white border-none rounded-full text-[1.25rem] font-medium leading-[1.8rem]">
-                        Life
-                        <img src="images/life.png" alt="">
-                        <span id="current-life">1</span>
-                    </button>
-                    <button
-                        class="btn py-6 px-[2.2rem] bg-[#360490] text-white border-none rounded-full text-[1.25rem] font-medium leading-[1.8rem]">
-                        Score
-                        <img src="images/score.png" alt="">
-                        <span id="current-score">1</span>
-                    </button>
                 </div>
             </div>
         </section>
